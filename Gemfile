@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gemspec
 
 group :development, :test do
-  gem 'pry'
-  gem 'test-unit'
+	#test current gems for vulnerabilities: $ bundle-audit
+	gem 'bundler-audit'
+	gem 'pry'
+	gem 'test-unit'
 end
