@@ -13,3 +13,7 @@ doc
 
 # rspec logs
 log
+
+# executable / gems
+vendor/bundle
+bin/
